@@ -97,6 +97,14 @@ body{
     margin: 20px 0;
 }
 
+.list li p {
+    color: rgb(34, 31, 31);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 .list li a {
     color: rgb(34, 31, 31);
     font-size: 14px;
@@ -107,4 +115,9 @@ body{
 .list ul {
     list-style-type: none;
     padding-left: 20px;
+}
+
+.none{
+    display: none;
+    transition-delay: 0.2s;
 }
